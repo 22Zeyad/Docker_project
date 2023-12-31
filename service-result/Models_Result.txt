@@ -1,0 +1,46 @@
+naive bayes :
+Score: 82.31682357756857
+Mean Absolute Error: 0.17683176422431438
+ r2 : 0.29254385670905414
+ mean_squared_error 0.17683176422431438
+RMSE 0.42051369088807844
+
+ decision tree :
+Score: 87.1469504707327
+Mean Absolute Error: 0.12853049529267294
+ r2 : 0.485784192145007
+ mean_squared_error 0.12853049529267294
+RMSE 0.35851149952640704
+
+ knn :
+Score: 83.46295538272615
+Mean Absolute Error: 0.16537044617273844
+ r2 : 0.3383974956260599
+ mean_squared_error 0.16537044617273844
+RMSE 0.4066576522982673
+
+ neural_network :
+Score: 89.19361440851412
+Mean Absolute Error: 0.10806385591485879
+ r2 : 0.3383974956260599
+ mean_squared_error 0.10806385591485879
+
+ random forest:
+Score: <bound method RegressorMixin.score of RandomForestRegressor(max_depth=10, random_state=42)>
+ r2 : 0.3383974956260599
+ mean_squared_error 0.0774227448547456
+
+linear regression:
+Score: 100.0
+Mean Absolute Error: 0.2295458584885364
+ r2 : 0.6916336546442194
+ mean_squared_error 0.08818741816813136
+RMSE 0.29696366472706953
+
+ linear regression :
+Score: 100.0
+Mean Absolute Error: 0.22862324308043838
+ r2 : 0.6880009821011615
+ mean_squared_error 0.08737868243191625
+RMSE 0.2955988539083267
+

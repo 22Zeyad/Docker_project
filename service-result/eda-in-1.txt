@@ -1,0 +1,64 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 12211 entries, 0 to 12210
+Data columns (total 22 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Suburb         12211 non-null  object 
+ 1   Rooms          12211 non-null  int64  
+ 2   Type           12211 non-null  object 
+ 3   Method         12211 non-null  object 
+ 4   SellerG        12211 non-null  object 
+ 5   Distance       12211 non-null  float64
+ 6   Postcode       12211 non-null  float64
+ 7   Bedroom2       12211 non-null  float64
+ 8   Bathroom       12211 non-null  float64
+ 9   Car            12211 non-null  float64
+ 10  Landsize       12211 non-null  float64
+ 11  BuildingArea   12211 non-null  float64
+ 12  YearBuilt      12211 non-null  float64
+ 13  CouncilArea    12211 non-null  object 
+ 14  Lattitude      12211 non-null  float64
+ 15  Longtitude     12211 non-null  float64
+ 16  Regionname     12211 non-null  object 
+ 17  Propertycount  12211 non-null  float64
+ 18  Day            12211 non-null  int64  
+ 19  Month          12211 non-null  int64  
+ 20  Year           12211 non-null  int64  
+ 21  Price_ln       12211 non-null  float64
+dtypes: float64(12), int64(4), object(6)
+memory usage: 2.0+ MB
+None
+              Rooms      Distance      Postcode      Bedroom2      Bathroom  ...  Propertycount           Day         Month          Year      Price_ln
+count  12211.000000  12211.000000  12211.000000  12211.000000  12211.000000  ...   12211.000000  12211.000000  12211.000000  12211.000000  12211.000000
+mean       2.894194      9.764368   3103.110638      2.868397      1.517402  ...    7452.984358     16.013185      6.871018   2016.481124     13.731912
+std        0.959341      5.507993     87.359029      0.969456      0.688923  ...    4369.616618      8.593814      2.607804      0.499664      0.530410
+min        1.000000      0.000000   3000.000000      0.000000      0.000000  ...     249.000000      1.000000      1.000000   2016.000000     11.350407
+25%        2.000000      5.900000   3044.000000      2.000000      1.000000  ...    4380.000000      8.000000      5.000000   2016.000000     13.369223
+50%        3.000000      9.200000   3083.000000      3.000000      1.000000  ...    6567.000000     16.000000      7.000000   2016.000000     13.704579
+75%        3.000000     12.600000   3147.000000      3.000000      2.000000  ...   10331.000000     24.000000      9.000000   2017.000000     14.093142
+max       10.000000     47.400000   3977.000000     20.000000      8.000000  ...   21650.000000     30.000000     12.000000   2017.000000     16.012735
+
+[8 rows x 16 columns]
+Suburb           0
+Rooms            0
+Type             0
+Method           0
+SellerG          0
+Distance         0
+Postcode         0
+Bedroom2         0
+Bathroom         0
+Car              0
+Landsize         0
+BuildingArea     0
+YearBuilt        0
+CouncilArea      0
+Lattitude        0
+Longtitude       0
+Regionname       0
+Propertycount    0
+Day              0
+Month            0
+Year             0
+Price_ln         0
+dtype: int64
